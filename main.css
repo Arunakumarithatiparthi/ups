@@ -1,0 +1,226 @@
+@import url("./main1.css");
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 90px;
+    width: 100%;
+    z-index: 0;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    position: relative;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: left;
+    color: #121212;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: white;
+    z-index: 1;
+
+    
+}
+#sub-nav1{
+    position: absolute;
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: inherit; 
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: -10px; */
+    align-items: center;
+    /* word-spacing: 40px; */
+    justify-content: space-between;
+}
+#button{
+    position: absolute;
+    margin-left:85%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ #button1 {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    margin-left: 1100px;
+    border-radius: 100px;
+    margin-top: 12px;
+    color: #121212;
+    background: #FFC400;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+  
+  
+  
+
+#main{
+    border: 2px solid #d9d9d9;
+    height: 380px;
+    background-color: #d9d9d9;
+
+}
+#main h1{
+    font-size:3rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #121212;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-family: "UPSRoboto",Tahoma,helvetica,arial,sans-serif;
+}
+#main p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #121212;
+    margin-top: 30px;
+    letter-spacing: .01em;
+    margin-left: 150px;
+    font-family: "UPSRoboto",Tahoma,helvetica,arial,sans-serif;
+}
+#shownow{
+        cursor: pointer;
+        font-weight: 700;
+        font-family: Helvetica,"sans-serif";
+        transition: all .2s;
+        padding: 10px 20px;
+        border-radius: 100px;
+        color: #121212;
+        background: #FFC400;
+        margin-left: 200px;
+        margin-top: 30px;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+      
+      button:hover {
+        background: #c4e201;
+      }
+      
+      button > svg {
+        width: 34px;
+        margin-left: 10px;
+        transition: transform .3s ease-in-out;
+      }
+      
+      button:hover svg {
+        transform: translateX(5px);
+      }
+      
+      button:active {
+        transform: scale(0.95);
+      }
+#main img{
+    position: relative;
+    height: 300px;
+    width: 550px;
+    margin-left: 50%;
+    margin-top: -237px;
+}
+#page3{
+    position: absolute;
+    /* border: 2px solid ; */
+    display: flex;
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+}
+#page31{
+    /* border: 2px solid red; */
+    height:inherit;
+    width: 55%;
+    margin: auto;
+
+}
+#page31 img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+#page32{
+    /* border: 2px solid red; */
+    height:inherit;
+    width: 80%;
+    margin: auto;
+}
+#page32 h1{
+    font-size: 2.5rem;
+    line-height: 1.25;
+    font-weight: 500;
+}
+#page32 p{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 1.25;
+    font-weight: 200;
+    color: #343a40;;
+}
+/* 
+.ups-text-content .unordered-list ul>li::before, .featured-list-component:not(.icon-card) .card-body-content ul>li::before {
+    content: "\e607";
+    font-family: "upsicons";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #c2e3e2;
+    font-size: 11px;
+    line-height: 1.5rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+#page32 ul{
+    position: absolute;
+    margin-top: 60px;
+    line-height: 1.9em;
+    font-weight: 200;
+    color: #343a40;
+    font-size: 18px;
+}
+/* #page32 ul>p{
+    position: absolute;
+    margin-top: 60px;
+    line-height: 1.9em;
+    font-weight: 200;
+    color:blue;
+    font-size: 18px; */
+
+}
+#pag33{
+    /* border: 2px solid black; */
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #343a40;
+    margin: auto;
+}
+/* #page4{ */
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    /* margin-top: 400px; */
+    background-color: #343a40;
+    margin: auto;
+/* } */
